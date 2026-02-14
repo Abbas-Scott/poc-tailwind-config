@@ -3,9 +3,19 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/ui/*": ["./src/*"]
+      "@workspace/ui/*": [
+        "./src/*"
+      ]
     }
   },
-  "include": ["."],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    ".",
+    "demo",
+    ".storybook"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "storybook-static"
+  ]
 }

@@ -1,0 +1,17 @@
+# Build outputs
+dist
+storybook-static
+
+# Development
+node_modules
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Vite
+vite.config.ts.timestamp-*
+
+# Storybook
+.storybook-cache
