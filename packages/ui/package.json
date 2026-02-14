@@ -10,6 +10,7 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
+    "@workspace/tailwind-config": "workspace:*",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.563.0",
@@ -22,7 +23,6 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
     "@turbo/gen": "^2.8.1",
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
@@ -30,13 +30,12 @@
     "@vitejs/plugin-react": "^4.3.4",
     "@workspace/eslint-config": "workspace:*",
     "@workspace/typescript-config": "workspace:*",
-    "autoprefixer": "^10.4.20",
     "eslint": "^9.39.2",
-    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "vite": "^6.0.7"
   },
   "exports": {
+    "./styles/globals.css": "./src/styles/globals.css",
     "./globals.css": "./src/styles/globals.css",
     "./postcss.config": "./postcss.config.mjs",
     "./lib/*": "./src/lib/*.ts",

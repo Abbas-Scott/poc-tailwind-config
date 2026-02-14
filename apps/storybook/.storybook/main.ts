@@ -30,6 +30,13 @@ const config: StorybookConfig = {
             css: {
                 postcss: path.resolve(__dirname, "../postcss.config.mjs"),
             },
+            optimizeDeps: {
+                ...config.optimizeDeps,
+                exclude: [
+                    ...(config.optimizeDeps?.exclude || []),
+                    "@storybook/blocks",
+                ],
+            },
         };
     },
 };

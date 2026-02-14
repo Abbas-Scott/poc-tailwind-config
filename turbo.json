@@ -1,6 +1,6 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "ui": "tui",
+  "$schema": "./node_modules/turbo/schema.json",
+  "ui": "stream",
   "tasks": {
     "build": {
       "dependsOn": [
