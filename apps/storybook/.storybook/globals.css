@@ -1,15 +1,10 @@
 /**
- * Demo App Global Styles
+ * Storybook Global Styles
  * Imports shared Tailwind config and defines source files to scan
  */
 
 @import "@workspace/tailwind-config/base.css";
 
-/* Source directives for demo app files */
+/* Source directives for storybook app files */
 @source "../../**/*.{ts,tsx}";
 @source "../../../packages/ui/src/**/*.{ts,tsx}";
-
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}

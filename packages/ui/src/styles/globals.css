@@ -5,6 +5,5 @@
 
 @import "@workspace/tailwind-config/base.css";
 
-/* Source directives for this package and consuming apps */
-@source "../../../apps/**/*.{ts,tsx}";
+/* Source directive for UI package components only */
 @source "../**/*.{ts,tsx}";

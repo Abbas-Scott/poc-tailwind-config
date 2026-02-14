@@ -33,9 +33,6 @@
     "vite": "^6.0.7"
   },
   "exports": {
-    "./styles/globals.css": "./src/styles/globals.css",
-    "./globals.css": "./src/styles/globals.css",
-    "./postcss.config": "./postcss.config.mjs",
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
     "./hooks/*": "./src/hooks/*.ts"
