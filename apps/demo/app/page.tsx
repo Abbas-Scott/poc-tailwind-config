@@ -16,7 +16,7 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen mt-12 bg-background">
+    <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border bg-card">
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
