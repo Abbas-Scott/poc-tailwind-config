@@ -1,11 +1,11 @@
 # @workspace/ui
 
-A shadcn-based UI component library with Storybook documentation and Vite development preview.
+A shadcn-based UI component library with Vite development preview.
 
 ## Features
 
 - 🎨 Built with [shadcn/ui](https://ui.shadcn.com/) components
-- 📚 Storybook for component documentation and testing
+- 📚 Storybook documentation (see `apps/storybook`)
 - ⚡ Vite for fast development and preview
 - 🎭 Tailwind CSS v4 for styling
 - 🌗 Light/Dark theme support
@@ -25,8 +25,16 @@ pnpm install
 
 #### Run Storybook (Recommended for development)
 
+Storybook has been moved to a dedicated app. From the monorepo root:
+
 ```bash
-pnpm storybook
+turbo dev --filter=@workspace/storybook
+```
+
+Or:
+
+```bash
+pnpm dev --filter=@workspace/storybook
 ```
 
 This will start Storybook on [http://localhost:6006](http://localhost:6006) where you can:
@@ -37,6 +45,8 @@ This will start Storybook on [http://localhost:6006](http://localhost:6006) wher
 
 #### Run Vite Preview
 
+To see a demo application with the components:
+
 ```bash
 pnpm dev
 ```
@@ -44,14 +54,6 @@ pnpm dev
 This will start a Vite development server on [http://localhost:3001](http://localhost:3001) with a demo application showcasing all components.
 
 ### Build
-
-#### Build Storybook
-
-```bash
-pnpm build-storybook
-```
-
-Builds Storybook as a static site in `storybook-static/` directory.
 
 #### Build Vite App
 

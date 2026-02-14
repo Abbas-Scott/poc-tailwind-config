@@ -7,8 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
@@ -24,14 +22,6 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.2",
-    "@storybook/addon-essentials": "^8.5.0",
-    "@storybook/addon-interactions": "^8.5.0",
-    "@storybook/addon-links": "^8.5.0",
-    "@storybook/blocks": "^8.5.0",
-    "@storybook/react": "^8.5.0",
-    "@storybook/react-vite": "^8.5.0",
-    "@storybook/test": "^8.5.0",
     "@tailwindcss/postcss": "^4.1.18",
     "@turbo/gen": "^2.8.1",
     "@types/node": "^25.1.0",
@@ -42,7 +32,6 @@
     "@workspace/typescript-config": "workspace:*",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.39.2",
-    "storybook": "^8.5.0",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "vite": "^6.0.7"
